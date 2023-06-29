@@ -1,0 +1,11 @@
+{
+  // tx -> js 컴파일 시 옵션 설정가능
+  "compilerOptions": {
+    "target": "es5", // 어떤 버전 자스로 바꿔줘?
+    "module": "commonjs", // js 파일간 import 어떻게  1.common.js : require문법 2. es2015, esnext: import
+    // ie 호환 원하면 es5, commonjs 사용
+
+    "noImplicitAny": true, // any라는 타입이 의도치 않게 발생할 경우 에러
+    "strictNullChecks": true // null, undefined 타입에 이상한 조작하면 에러
+  }
+}
